@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    position: fixed;
+    top: 0px;
+    box-shadow: rgba(0, 0, 0, 0) 0px;
+}
+
+a {
+    color: white;
+    opacity: 0.8;
+    text-decoration: none;
+    transition: all 5s linear;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+li {
+    padding-top: 5px;
+    text-decoration: none;
+    list-style: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: 1;
+    transition: all 5s linear;
+}
+
+.profile01 {
+    margin-top: 30px;
+    color: white;
+    width: 100%;
+    height: 500px;
+    background-color: blueviolet;
+}
+
+.profile02 {
+    color: white;
+    width: 100%;
+    height: 500px;
+    background-color: green;
+}
+
+.tec {
+    color: white;
+    width: 100%;
+    height: 500px;
+    background-color: gray;
+}
+
+.cont {
+    color: white;
+    width: 100%;
+    height: 500px;
+    background-color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.img1,
+.img2 {
+    transition: transform 0.3s ease-in-out;
+}
+
+.img1:hover,
+.img2:hover {
+    transform: scale(1.2);
+}
+
+.img1 {
+    margin: 50px 160px 50px -120px;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    border: 5px solid black;
+    object-fit: cover;
+}
+
+.img2 {
+    margin: 50px 120px 50px 160px;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    border: 5px solid black;
+    object-fit: cover;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.filhas {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 300px;
+    border: 5px solid black;
+    width: 400px;
+}
+
+.filhas div {
+    align-self: flex-start;
+}
+
+.paragrafo-container {
+    margin-left: 20px;
+}
+
+.paragrafo-container p {
+    margin-bottom: 10px;
+    align-self: flex-start;
+}

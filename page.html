@@ -17,30 +17,58 @@
             <li><a href="#cont">CONTATOS</a></li>
         </ul>
     </header>
+    
     <div class="profile01" id="p1">
         <p>PERFIL 01</p>
+        <h2 class="perfil01">FELCA</h2>
         <div class="profile-container">
             <img class="img1" id="img1" src="https://s2.glbimg.com/xTcuoPV8tzybQaqQfKpaBeb67YM=/0x0:1400x1016/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_b0f0e84207c948ab8b8777be5a6a4395/internal_photos/bs/2023/A/m/o5rx9YSfy3kw0R0l51Ig/felca-1-.jpg" alt="Perfil 01" width="250" height="250">
-            <p>PERFIL</p>
             <div class="filhas"> 
+                <p>Felipe Bressanim Pereira (Londrina, 28 de julho de 1998), mais conhecido como Felca, é um youtuber /humorísta brasileiro que faz sátiras e personagens. Possui mais de 3 milhões de inscritos em seu canal no YouTube. </p>
             </div>
         </div>
 
     <div class="profile02" id="p2">
         <p>PERFIL 02</p>
-        <div class="profile-container">
-            <p>PERFIL</p>
+        <h2 class="perfil02">CELLBIT</h2>
+        <div class="profile-container">  
             <div class="filhas">
-
+                <p>Rafael Lange Severino, mais conhecido como Cellbit (Carazinho, 11 de fevereiro de 1997), é um escritor, youtuber e streamer conhecido por solucionar enigmas em seu canal do YouTube e pela criação e realização da série de RPGs de mesa Ordem Paranormal em seu canal da Twitch.</p>
             </div>
             <img class="img2" id="img2" src="https://i.pinimg.com/474x/d4/2c/d3/d42cd33cf3ab822ab2c2913cf8a1e864.jpg" alt="Perfil 02" width="450" height="450">
         </div>
+    </div>
 
     <div class="tec" id="tec">
         <p>TECNOLOGIAS</p>
     </div>
+    
     <div class="cont" id="cont">
-        <p>CONTATOS</p>
+        <div>
+            <div>
+                <h3>CONTATOS</h3>
+                <p>Mande uma mensagem:</p>
+            </div>
+            <div>
+                <div>
+                    <label for="nome">NOME:</label>
+                    <input type="text" id="nome">
+                </div>
+                <div>
+                    <label for="mensagem">MENSAGEM:</label>
+                    <textarea type="text" id="mensagem"></textarea>
+                </div>
+            </div>
+            <button onclick="Conferir()">CONFERIR DADOS</button>
+        </div>
+        <div>
+            <div>
+            <p>NOME: <span id="ConfirmeNome"></span></p>
+            <p>MENSAGEM: <span id="ConfirmeMens"></span></p>
+        </div>
+            <button onclick="enviar()">ZAP</button>
+        </div>
     </div>
+
 </body>
 </html>

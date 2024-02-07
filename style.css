@@ -10,6 +10,10 @@ header {
     position: fixed;
     top: 0px;
     box-shadow: rgba(0, 0, 0, 0) 0px;
+    z-index: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 a {
@@ -47,28 +51,35 @@ a:hover {
     color: white;
     width: 100%;
     height: 500px;
-    background-color: blueviolet;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
 }
 
 .profile02 {
     color: white;
     width: 100%;
     height: 500px;
-    background-color: green;
+    background-color: lightslategray;
+    justify-content: center;
+    align-items: center;
+    border-color: blanchedalmond;
+    display: flex;
+
 }
 
 .tec {
     color: white;
     width: 100%;
     height: 500px;
-    background-color: gray;
+    background-color: lightsteelblue;
 }
 
 .cont {
     color: white;
     width: 100%;
     height: 500px;
-    background-color: black;
+    background-color: lightgrey;
 }
 
 html {
@@ -86,27 +97,35 @@ html {
 }
 
 .img1 {
-    margin: 50px 160px 50px -120px;
+    margin: 50px 50px 50px -120px;
     border-radius: 50%;
     width: 300px;
     height: 300px;
     border: 5px solid black;
     object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 10.35) 0px 5px 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .img2 {
-    margin: 50px 120px 50px 160px;
+    margin: 50px 120px 50px 50px;
     border-radius: 50%;
     width: 300px;
     height: 300px;
     border: 5px solid black;
     object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 10.35) 0px 5px 15px;
+    justify-content: center;
+    align-items: center;
 }
 
 .profile-container {
     display: flex;
     align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
 .filhas {
@@ -115,21 +134,43 @@ html {
     gap: 10px;
     border-radius: 15px;
     padding: 20px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     height: 300px;
-    border: 5px solid black;
     width: 400px;
+    justify-content: top;
+    align-items: top;
+    display: flex;
+
 }
 
 .filhas div {
     align-self: flex-start;
 }
 
-.paragrafo-container {
-    margin-left: 20px;
+
+.perfil01{
+    margin-left: 980px;
+    margin-top: 30px;
 }
 
-.paragrafo-container p {
-    margin-bottom: 10px;
-    align-self: flex-start;
+.perfil02{
+    margin-left: 560px;
+    margin-top: 30px;
+}
+
+h2{
+    border-bottom: 5px solid brown;
+    width: 110px;
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+    text-align: center;
+    color:black;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: black;
 }
